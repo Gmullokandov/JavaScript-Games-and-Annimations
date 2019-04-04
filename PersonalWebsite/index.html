@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Gabriel Mullokandov</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio website for gabriel.">
+        <meta name="keywords" content="web,full-stack,front-end,freelance">
+        <meta name="author" content="Gabriel Mullokandov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/personal.css">
+        <!--<link rel="stylesheet" type="text/css" href="CSS/normalize.css">--><!-- [if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></<script>
+        <![end if]-->
+	</head>
+	<body>
+		<div id="header">
+			<video autoplay muted loop id="myVideo">
+				<source src="assets/vid/intro2.mp4" type="video/mp4">
+			</video>
+			<div class="header-text">
+				<h1>Hey, I'm Gabriel Mullokandov!</h1>
+				<h2>An aspiring <em>full-stack</em> software developer.</h2>
+			</div>
+		</div>
+		<div id="navbar">
+			<a href="index.html">Home</a>
+			<a href="#about">About</a>
+			<a href="#projects">My Projects</a>
+			<a href="#blog">Blog</a>
+			<a href="#row-contact">Contact</a>
+		</div>
+
+		<!-- About -->
+		<h2 id="about" class="heading">About Me</h2>
+		<div id="row-traits">
+			<div class="col30">
+				<img class="icon" src="assets/img/speedometer.png" alt="Speedometer" width="70px" height="70px"/>
+				<h3>Fast</h3>
+				<p>Fast load times are my highest priority.</p>
+			</div>
+			<div class="col30">
+				<img class="icon" src="assets/img/web-design.png" alt="Screens" width="70px" height="70px"/>
+				<h3>Responsive</h3>
+				<p>UX/UI designs feel natural and intuitive on all devices.</p>
+			</div>
+			<div class="col30">
+				<img class="icon" src="assets/img/blueprint.png" alt="Blueprint" width="70px" height="70px"/>
+				<h3>Personal</h3>
+				  <p>I take a personal interest into every project.</p>
+			</div>
+		</div>
+		<div id="row-personal">
+			<div class="col40">
+				<img src="assets/img/PicofMe.png" class="picture" alt="picture of me" width="220px" height="350px">
+				<p>I'm an experienced web developer, adept in SEO, Web Development, and Business Development. Skilled in Front-End Development, Java, C++, and Computer Architecture. Strong engineering professional currently on track to receive a Bachelor’s Degree focused in Applied Mathematics with a focus in Computer Science from CUNY Queens College.</p>
+			</div>
+			<div class="col60">
+				<p>HTML5 &amp; CSS3</p>
+				<div class="container">
+  					<div class="skills html">90%</div>
+				</div>
+				<p>JavaScript</p>
+				<div class="container">
+					<div class="skills js">80%</div>
+				</div>
+				<p>PHP</p>
+				<div class="container">
+					<div class="skills php">60%</div>
+				</div>
+				<p>C++</p>
+				<div class="container">
+					<div class="skills cpp">80%</div>
+				</div>
+				<p>Java</p>
+				<div class="container">
+					<div class="skills Java">70%</div>
+				</div>
+			</div>
+		</div>
+		<!-- Projects -->
+		<h2 id="projects" class="heading">My Projects</h2>
+		<div id="row-projects">
+			<div id="London" class="tabcontent">
+				<h1>London</h1>
+				<p>London is the capital city of England.</p>
+			</div>				  
+			<div id="Paris" class="tabcontent">
+				<h1>Paris</h1>
+				<p>Paris is the capital of France.</p> 
+			</div>				  
+			<div id="Tokyo" class="tabcontent">
+				<h1>Tokyo</h1>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>				  
+			<div id="Oslo" class="tabcontent">
+				<h1>Oslo</h1>
+				<p>Oslo is the capital of Norway.</p>
+			</div>				  
+			<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+			<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+			<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+			<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+		</div>
+		<!-- Blog -->
+		<h2 id="blog" class = "heading">Blog</h2>
+	 	<div id="row-blog">
+			<p>(Coming Soon!)</p>
+		</div>
+		<!-- Contact Me -->
+		<div id = "row-contact">
+			<h2 class="heading"> Contact Me </h2>
+			<div class="contact">
+				<forms>
+					<input type="text" placeholder="Your Name" id="form-name">
+					<input type="email" placeholder="Your E-mail" id="form-email">
+					<textarea placeholder="Message" rows="10" cols="40"></textarea>
+					<input type="submit" value="Submit">
+				</forms>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<a href="https://www.facebook.com/Gaby.Mullokandov">
+				<img src="assets/img/fblogo.png" alt="Facebook" width="50" height="50"/>
+			</a>
+			<a href="https://www.linkedin.com/in/gabriel-mullokandov-304297102/">
+				<img src="assets/img/linkedlogo.png" alt="LinkedIn" width="50" height="50"/>
+			</a>
+			<a href="https://github.com/Gmullokandov">
+				<img src="assets/img/ghlogo.png" alt="Github" width="50" height="50"/>
+			</a>
+			<p class="copyright">&copy; 2019 - Gabriel Mullokandov</p>
+		</footer>
+		<script src="assets/scripts/main.js"></script>
+	</body>
+</html>
