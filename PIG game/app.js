@@ -30,7 +30,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
             roundScore += dice1 + dice2;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
-            nextPlayer();
+            setTimeout(nextPlayer, 1000);
         }
         /*if (dice === 6 && lastDice === 6){
             scores[activePlayer] = 0;
